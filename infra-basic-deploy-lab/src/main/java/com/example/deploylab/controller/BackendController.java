@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class BackendController {
-
-    @GetMapping("/backend")
-    public String backend() {
-        return "backend";
-    }
+	
+	    @GetMapping("/backend")
+	    public String backend() {
+	        return "backend";
+	    }
 }
